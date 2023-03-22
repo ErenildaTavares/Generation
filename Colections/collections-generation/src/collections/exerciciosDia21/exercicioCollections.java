@@ -7,7 +7,7 @@ import java.util.Set;
 public class exercicioCollections {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Set<Integer> encontrarSet= new HashSet<Integer>();
+        Set<Integer> encontrarSet = new HashSet<Integer>();
 
         encontrarSet.add(2);
         encontrarSet.add(5);
@@ -19,21 +19,16 @@ public class exercicioCollections {
         encontrarSet.add(8);
         encontrarSet.add(10);
         encontrarSet.add(6);
-        
 
-        
-        for(int i =0; i<1; i++){
             System.out.println("\nDigite o numero que deseja encontrar: ");
-        int verificaNum = scan.nextInt();
-            if(encontrarSet.contains(verificaNum)){
-                System.out.print("O numero "+ verificaNum +" foi encontrado!");
-                System.out.println();
-                
-        } else{
-            System.out.println("Numero "+verificaNum +" Nao foi encontrado!");
-            System.out.println();
-        }  
-    }  
-    scan.close(); 
+            int verificaNum = scan.nextInt();
+            if (encontrarSet.contains(verificaNum)) {
+                System.out.print("O numero " + verificaNum + " foi encontrado!");
+
+            } else {
+                System.out.println("Numero " + verificaNum + " Nao foi encontrado!");
+            }
+            
+        scan.close();
     }
 }
