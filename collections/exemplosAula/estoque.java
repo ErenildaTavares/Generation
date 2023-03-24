@@ -11,7 +11,7 @@ public class estoque {
 
         ArrayList<String> estoque = new ArrayList<>();
 
-        do
+        do{
 
             System.out.println("\n---------------------------------------------------");
             System.out.println("\n\t\t Menu do Estoque");

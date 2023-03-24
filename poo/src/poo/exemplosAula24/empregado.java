@@ -1,4 +1,4 @@
-package poo;
+package poo.exemplosAula24;
 
 import java.text.NumberFormat;
 
@@ -36,3 +36,5 @@ public class empregado {
     System.out.println(nome+ " \t\t\tSalário: "+this.formatarMoeda());
    }
 }
+
+
