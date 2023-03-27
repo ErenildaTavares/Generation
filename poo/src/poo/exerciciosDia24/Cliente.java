@@ -56,8 +56,8 @@ public class Cliente {
     }
 
     public void visualisar() {
-        System.out.println("\ncliente: " + nome + " tem " + idade + " anos " + " é do sexo "
-         + sexo+"N° CPF " +cpf+" e tefenone de numero: "+telefone );
+        System.out.println("\ncliente: " + nome + "\nTem " + idade + " anos " + "\nÉ do sexo "
+         + sexo+"\nN° CPF " +cpf+"\n N° de telefone: "+telefone );
     }
 
 }
